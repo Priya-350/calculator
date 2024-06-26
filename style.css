@@ -1,0 +1,146 @@
+.body{
+    background-color: #ffffffad;
+    margin: 0;
+    padding:0;
+    width:100%;
+}
+
+.cl{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top:90px ;
+}
+.container{
+    border: 5px solid black;
+    border-radius: 10px 10px 20px 20px;
+    height:520px;
+    width:375px;
+   
+    
+}
+
+.a input{
+    width:371px;
+    height:100px;
+    border:none;
+    border-bottom: 3px  solid black;
+    font-size:40px;
+    
+    font-weight:lighter;
+    text-align: right;
+    
+   
+    background-color: rgba(245, 245, 220, 0.855);
+   
+}
+.a input::placeholder{
+    margin-right:5px;
+    
+    
+}
+
+
+
+.b input,.c input,.d input,.e input,.f input{
+    height:35px;
+    width:50px;
+    border-radius:12px ;
+    font-size: large;
+    font-weight:bold;
+    margin: 20px;
+     border-radius: 10px white;
+     background-color:rgba(112, 109, 109, 0.41);
+    text-align: center;
+    
+    cursor:pointer;
+}
+.b input{
+    
+   margin:20px;
+   text-align: center; 
+}
+.calc{
+  border-bottom-left-radius:12px ;
+  border-bottom-right-radius:12px ;
+}
+#v{
+    width:140px;
+}
+
+.a input::placeholder{
+    text-align: right;
+    font-size: 40px;
+}
+
+.b input,.c .bt,.d .bt,.e .bt,.f .bt {
+    background-color: rgb(209, 177, 238);
+}
+.calc{
+  background-color: rgba(245, 245, 220, 0.855);
+  border:none;
+}
+ #icon1{
+  width:30px;
+  height:30px;
+ margin:5px ;
+ margin-bottom: 0px;
+
+}
+.cl1 .calc{
+  background-color: rgba(0, 0, 0, 0.741);
+  border-bottom:1.6px solid rgba(0, 0, 0, 0.741) ;
+  border-bottom-left-radius:4px ;
+  border-bottom-right-radius:4px ;
+}
+.cl1 .a input{
+  background-color: rgba(0, 0, 0, 0);
+  color:white;
+  border-right:none ;
+ 
+}
+.cl1 .d input,.cl1 .e input,.cl1 .f input,.cl1 .c input{
+  color:white;
+}
+.cl1 .c .bt,.cl1 .d .bt,.cl1 .e .bt,.cl1 .f .bt{
+  color:black;
+}
+.cl1 input::placeholder{
+  color:white;
+  opacity:0.5;
+}
+.cl1 .a input{
+  border-bottom: 1px solid white ;
+}
+
+@media (max-width:600px) and (min-width:300px){
+
+  .container{
+    margin-top:20px ;
+    width:280px;
+    height:455px;
+  }
+  .a input{
+     width:276px;
+     height:80px;
+  }
+  .b input,.c input,.d input,.e input,.f input{
+    width:45px;
+    height:33px;
+    margin: 11px;
+
+  }
+  .calc{
+    height:453px;
+  }
+  .calc .b{
+    margin-top:20px ;
+  }
+  #v{
+    width:116px;
+  }
+
+
+
+}
